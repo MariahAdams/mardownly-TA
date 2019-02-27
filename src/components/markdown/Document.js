@@ -5,7 +5,7 @@ import styles from './Document.css';
 
 export default class Document extends PureComponent {
   state = {
-    markdown: '# Hi there'
+    markdown: '# Hi there!'
   };
 
   updateMarkdown = ({ target }) => {
